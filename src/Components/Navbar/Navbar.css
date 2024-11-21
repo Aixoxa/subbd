@@ -1,0 +1,42 @@
+.nav_container {
+  max-width: 1440px;
+  border-radius: 100px;
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  padding: 10px;
+  font-family: var(--font2);
+}
+
+.nav_container ul:first-child li {
+  margin: 0 10px;
+}
+
+.nav_container ul:first-child li:first-child {
+  margin-right: 25px;
+}
+
+.nav_container ul:last-child li {
+  margin: 0 5px;
+}
+
+.nav_container ul:last-child li:last-child {
+  margin-left: 20px;
+}
+
+.nav_container ul:last-child li:last-child img {
+  display: inline-block;
+  margin-right: 7px;
+}
+.nav_container ul:last-child li:last-child {
+  background-color: #e7242e;
+  border-radius: 100px;
+  padding: 10px 15px;
+}
+
+.nav_container ul:last-child li:nth-child(1),
+.nav_container ul:last-child li:nth-child(2),
+.nav_container ul:last-child li:nth-child(3) {
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 15px;
+}
